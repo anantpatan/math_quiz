@@ -1,5 +1,5 @@
-player1_name=localStorage.getItem("P1");
-player2_name=localStorage.getItem("P2");
+player1_name=localStorage.getItem("player1_name");
+player2_name=localStorage.getItem("player2_name");
 score1=0;
 score2=0;
 document.getElementById("name_1").innerHTML=player1_name+" :  ";
